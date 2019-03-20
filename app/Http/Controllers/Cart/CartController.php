@@ -55,7 +55,7 @@ class CartController extends Controller
         }
     }else{
         echo '请先登录';
-        hrader('refresh:1,url=/userlogs');
+        header('refresh:1,url=/userlogin');
 }
 }
 
