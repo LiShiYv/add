@@ -30,13 +30,5 @@ class vip extends Controller
         ];
         return view('vip.list',$data);
     }
-    public function api(){
-        $data=[
-            'u_name'=>"1111",
-            'u_email'=>"111111@163.com",
-            'age'=>"16",
-            //'up_time'=>time(),
-        ];
-        return $data;
-    }
+   
 }
