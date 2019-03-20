@@ -132,4 +132,4 @@ Route::get('/weixin/getcode','Weixin\WeiXinController@weiXinLogin');
 //微信JS
 Route::get('/weixin/config','Weixin\WeiXinController@config');
 Route::get('/weixin/config1','Weixin\WeiXinController@refreshToken');
-Route::post('/api','vip\vip@api');
+Route::post('/vip/api','vip\vip@api');
